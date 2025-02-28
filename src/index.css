@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Bangers&family=Caveat+Brush&family=Chicle&family=DM+Serif+Text:ital@0;1&family=Grechen+Fuemen&family=Jersey+15&family=Kaushan+Script&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Permanent+Marker&family=Playwrite+AU+SA:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.grechen-fuemen-regular {
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.chicle-regular {
+  font-family: "Chicle", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wavy-underline {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
