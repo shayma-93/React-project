@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';  // Import Link from react-router-dom
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon
-import { faCartShopping, faUser } from '@fortawesome/free-solid-svg-icons'; // Import specific icons
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
+import { faCartShopping, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
           </Link>
 
           <nav className="w-full hidden gap-12 -12 ml-48 lg:flex justify-start">
-            <Link to="/" className="text-lg font-pacifico font-semibold text-[#c74385]">Home</Link>
+            <Link to="/" className="text-lg font-pacifico font-semibold text-gray-600 transition duration-100 hover:text-[#c74385] active:text-[#c74385">Home</Link>
             <Link
               to="/about"
               className="text-lg font-pacifico font-semibold text-gray-600 transition duration-100 hover:text-[#c74385] active:text-[#c74385]"
@@ -26,16 +26,16 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              to="/features"
-              className="text-lg font-pacifico font-semibold text-gray-600 transition duration-100 hover:text-[#c74385] active:text-[#c74385]"
-            >
-              Features
-            </Link>
-            <Link
               to="/products"
               className="text-lg font-pacifico font-semibold text-gray-600 transition duration-100 hover:text-[#c74385] active:text-[#c74385]"
             >
               Products
+            </Link>
+            <Link
+              to="/features"
+              className="text-lg font-pacifico font-semibold text-gray-600 transition duration-100 hover:text-[#c74385] active:text-[#c74385]"
+            >
+              Loyalty Points
             </Link>
             <Link
               to="/reviews"
